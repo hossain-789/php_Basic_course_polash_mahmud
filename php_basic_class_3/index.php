@@ -103,9 +103,24 @@ function getNumber(){
 getNumber();
 
 function getPnum(){
-echo $GLOBALS['parsonPhone'];
+echo $GLOBALS['parsonPhone'] ."</br>";
 }
 getPnum();
+
+
+$bookName = "English";
+function getSubject(){
+    global $bookName;
+    echo $bookName ."</br>";
+}
+getSubject();
+
+
+$smallBro = "Ikram";
+function getSbro(){
+    echo $GLOBALS ['smallBro'];
+}
+getSbro();
 
 // 3.static
 
