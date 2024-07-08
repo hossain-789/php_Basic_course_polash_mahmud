@@ -75,6 +75,12 @@
 //     echo $num++;
 // }
 
+
+// $number = 10;
+// for ($i=0; $i<10; $i++){
+//     echo $number++ . PHP_EOL;
+// }
+
 // echo (pi()."</br>");
 // echo (max(20, 10, 30, 50, 100, -8, -200) ."</br>");
 // echo (min(20, 10, 30, 50, 100, -8, -200) ."</br>");
@@ -123,6 +129,6 @@
     array
  =================== */
 
-$x = ['a' => 'red' , 'b' => 'green'];
-$z = ['a' => 'blue' , 'b' => 'yellow'];
-var_dump($x === $z);
+// $x = ['a' => 'red' , 'b' => 'green'];
+// $z = ['a' => 'blue' , 'b' => 'yellow'];
+// var_dump($x === $z);

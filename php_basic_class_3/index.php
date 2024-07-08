@@ -93,34 +93,49 @@
 */
 
 //2.global,
-$parsonName = "Hossain"; //global
-$parsonPhone = 56754333; //global
+// $parsonName = "Hossain"; //global
+// $parsonPhone = 56754333; //global
 
-function getNumber(){
-    global $parsonName;
-    echo "My name is $parsonName </br>";
-}
-getNumber();
+// function getNumber(){
+//     global $parsonName;
+//     echo "My name is $parsonName </br>";
+// }
+// getNumber();
 
-function getPnum(){
-echo $GLOBALS['parsonPhone'] ."</br>";
-}
-getPnum();
-
-
-$bookName = "English";
-function getSubject(){
-    global $bookName;
-    echo $bookName ."</br>";
-}
-getSubject();
+// function getPnum(){
+// echo $GLOBALS['parsonPhone'] ."</br>";
+// }
+// getPnum();
 
 
-$smallBro = "Ikram";
-function getSbro(){
-    echo $GLOBALS ['smallBro'];
-}
-getSbro();
+// $bookName = "English";
+// function getSubject(){
+//     global $bookName;
+//     echo $bookName ."</br>";
+// }
+// getSubject();
+
+
+// $smallBro = "Ikram";
+// function getSbro(){
+//     echo $GLOBALS ['smallBro'] ."</br>";
+// }
+// getSbro();
+
+// $motherName = "Baby Akter";
+// function getMother(){
+//     global $motherName;
+//     echo $motherName;
+// }
+
+// getMother();
+
+// function getMotherName(){
+//     echo $GLOBALS ['motherName'];
+// }
+
+// getMotherName();
+
 
 // 3.static
 
@@ -144,3 +159,129 @@ getSbro();
 //     echo $num;
 // }
 // getAddress();
+
+
+
+
+/*====================
+    ~~ switch ~~
+=====================*/
+
+// $favColor = 'red';
+// switch ($favColor){
+//     case 'red':
+//         echo 'you favorite color is red';
+//         break;
+//     case 'green';
+//         echo 'you favorite color is green';
+//         break;
+//     case 'yellow';
+//         echo 'you favorite color is yellow';
+//         break;
+//     default:
+//     echo 'you favorite color is na'
+// }
+
+
+// $leptopName = "HP";
+// switch ($leptopName) {
+//     case "Lenovo":
+//         echo "My laptop is Lenovo";
+//     break;
+//     case "HP":
+//         echo "My laptop is HP";
+//     break;
+//     case 'Dell':
+//         echo "My laptop is Lenovo";
+//     break;
+//     default:
+//     echo "My laptop is Lenovo MAC";
+        
+// }
+
+/*====================
+    ~~ while ~~
+=====================*/
+
+// $x = 1;
+// while ($x <=5){
+//     echo 'the number is  '.$x . '</br>';
+//     $x++;
+// }
+
+// $num = 1;
+// while ($num<=10):
+//     echo 'The number is '.$num.'</br>';
+//     $num++;
+// endwhile;
+
+
+
+/*====================
+    ~~ do while ~~
+=====================*/
+
+// $x = 1;
+// do {
+//     echo 'The number is '.$x.'</br>';
+//     $x++;
+// } while ($x <=10);
+
+
+// $number = 10;
+// do{
+//     echo 'The number is '.$number.'</br>';
+//     $number++;
+// }  while ($number <=30);
+
+// $x = 2;
+// do{
+//     echo 'the number is '.$x. '</br>';
+//     $x++;
+// } while ($x <=5);
+
+/*====================
+    ~~ foreach ~~
+=====================*/
+
+// $colors = array("red", "green", "Blue");
+// $colors = ["red", "green", "blue"];
+
+// foreach ($colors as $colors) {
+//     echo $colors .'</br>';
+// }
+
+// foreach($colors as $key => $value) {
+//     echo "Key: $key 'Value: $value </br>";
+// }
+
+/*====================
+    ~~ function ~~
+=====================*/
+
+// function abc() {
+//     return "Hello world";
+// }
+// echo abc();
+
+
+// function sum($x, $y){
+//     $z = $x + $y;
+//     return $z;
+// }
+
+// echo "5 + 10 = " .sum(5, 10);
+// echo "10 + 5 = " .sum(10, 5);
+
+
+/*====================
+    ~~ inquire & include ~~
+=====================*/
+// require "about.php";
+// include 'about.php';
+
+// require_once 'about.php';
+// include_once 'about.php';
+
+// echo "index.php";
+

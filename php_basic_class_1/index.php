@@ -3,8 +3,7 @@
 // echo "<a href='https://www.google.com/'>Google</a> <br>";
 // echo '<a href="https://www.google.com/">Google</a> <br>';
 // echo "<a href=\"https://www.google.com\">Google</a> <br>";
-
-
+// echo "<a href=\"https://www.facebook.com/\">facebook<a/>";
 
 
 /*===============================
@@ -40,6 +39,18 @@ Variable names are case-sensitive ($age and $AGE are two different variables) */
 // $age = 30;
 // echo 'My name is '.$parsonName. ' and my father name is ' .$fatherName. ' and my age ' .$age;
 
+// $leptopBrand = "ThinkPad";
+// $price = 3000;
+// echo 'the name of the leptop '.$leptopBrand.' And it\'s worth it ' .$price;
+// echo $leptopBrand;
+
+// $tableLamp = "Yage";
+// $price = 500;
+// $brand = "Japan";
+// echo 'The name of the light is '.$tableLamp.' it\'s price is '.$price.' and the band name of the light is '.$brand;
+
+
+
 
 /*===============================
 ~~ PHP constant ~~
@@ -72,6 +83,12 @@ Variable names are case-sensitive ($age and $AGE are two different variables) */
 // $parson = $contractNo;
 // echo "my phone number is $parson";
 
+// const national = 45654543545;
+// $nationalNumber = national;
+// echo 'My national number is '.$nationalNumber;
+
+// define ('phoneName', ['Samsung', 'Realmi', 'Apple', 'Readmi']);
+// echo phoneName[1];
 
 
 /*===============================
@@ -104,6 +121,11 @@ Variable names are case-sensitive ($age and $AGE are two different variables) */
 //     var_dump ($name);
 // }
 
+$leptop = 45433;
+if (is_string($leptop)) {
+   echo $leptop;
+}
+
 
 
 /*===============================
@@ -135,7 +157,7 @@ var_dump((round(36/45)));*/
 
 // https://www.google.com/
 // echo "<a href=\"https://www.google.com/\">google</a>";
-echo "<a href=\"https://www.google.com/\">Google</a>";
+// echo "<a href=\"https://www.google.com/\">Google</a>";
 
 // $name = "Hossain ahmed";
 // echo "my name is $name";
